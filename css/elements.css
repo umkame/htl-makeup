@@ -6,16 +6,25 @@
     width: 950px;
 }
 
+    .page .leftColumn {
+        float: left;
+        margin: 0 1% 0 0;
+        position: relative;
+        width: 79%;
+    }
+
+    .page .rightColumn {
+        float: left;
+        position: relative;
+        width: 20%;
+    }
+
 	.page .head {
 	}
 	
 		.page .head .menu{
-			 background-color: #FFFFFF;
-			 position: relative;
-			 float: left;
-			 height: 52px;
-			 margin: 0 1% 0 0;
-			 width: 79%;
+		    background-color: #FFFFFF;
+            height: 52px;
 		}
 		
 			.page .head .menu ul.items {
@@ -28,10 +37,7 @@
 				
 		.page .head .search {
 			 background-color: #FFFFFF;
-			 float: left;
 			 height: 52px;
-			 position: relative;
-			 width: 20%;
 		}
 			.page .head .search div.filedContainer {
 				border: 1px solid #DCDCDC;
@@ -55,6 +61,66 @@
 			    top: 4px;
 			    width: 22px;
 			}
+
+    .page .content {}
+
+        .page .content .bestOffer {
+            background-color: #FFFFFF;
+        }
+            .page .content .bestOffer .imageWrapper{
+                overflow-y: hidden;
+                height: 420px;
+            }
+            .page .content .bestOffer .caption{
+                float: right;
+                padding: 1em 0;
+                margin-right: 10%;
+                position: relative;
+                text-align: center;
+                text-transform: uppercase;
+                width: 50%;
+            }
+                .page .content .bestOffer .caption span.captionText{
+                    color: #3797C1;
+                }
+                .page .content .bestOffer .caption span.verticalSpacer{
+                    background-color: #F9F7F4;
+                    height: 100%;
+                    width: 1px;
+                }
+                .page .content .bestOffer .caption span.cost{
+                    color: #FF535F;
+                }
+
+        .page .content .geoMenu{
+            background-color: #F9F7F4;
+            height: 420px;
+        }
+
+            .page .content .geoMenu div.wrapper {
+                margin: 10px;
+            }
+
+            .page .content .geoMenu ul{
+                color: #7E7E7E;;
+                list-style: none;
+            }
+
+                .page .content .geoMenu ul > li:first-child{
+                    border: none;
+                }
+                .page .content .geoMenu ul > li {
+                    background: url("../assets/css/marker-rigth.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+                    border-top: 1px solid #D8D8D8;
+                    padding: 5px 2px;
+                    position: relative;
+                    text-transform: uppercase;
+                }
+
+        .page .content .title {
+            background-color: #FFFFFF;
+            text-transform: uppercase;
+        }
 
 	.page .footer {
 		background-color: #FFFFFF;
