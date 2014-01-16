@@ -1,0 +1,63 @@
+.page {
+	margin: 0 auto;
+	padding-top: 20px;
+    position: relative;
+    text-align: left;
+    width: 950px;
+}
+
+	.page .head {
+	}
+	
+		.page .head .menu{
+			 background-color: #FFFFFF;
+			 position: relative;
+			 float: left;
+			 height: 52px;
+			 margin: 0 1% 0 0;
+			 width: 79%;
+		}
+		
+			.page .head .menu ul.items {
+				  color: #808080;
+			      font: 14px/24px Arial,Helvetica,sans-serif;
+			}
+				.page .head .menu ul.items > li{
+					padding: 1em 2em;	
+				}
+				
+		.page .head .search {
+			 background-color: #FFFFFF;
+			 float: left;
+			 height: 52px;
+			 position: relative;
+			 width: 20%;
+		}
+			.page .head .search div.filedContainer {
+				border: 1px solid #DCDCDC;
+				height: 30px;
+				margin: 10px;
+				position: relative;
+			}
+			
+			.page .head .search input.term {
+				border: none;
+				height: 100%;
+			}
+			
+			.page .head .search input.buttonSearch {
+				background: url("../assets/css/search-button.jpg") no-repeat scroll left top rgba(0, 0, 0, 0);
+				border: medium none;
+				cursor: pointer;
+			    height: 22px;
+			    position: absolute;
+			    right: 2px;
+			    top: 4px;
+			    width: 22px;
+			}
+
+	.page .footer {
+		background-color: #FFFFFF;
+		position: relative;
+		float: left;
+	}

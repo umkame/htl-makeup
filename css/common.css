@@ -1,0 +1,39 @@
+*,html,body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+ul, ol{
+	margin: 0;
+	padding: 0;
+}
+ul.horizontal  {
+	list-style: none;
+}
+	ul.horizontal > li{
+		position: relative;
+		float:left;	
+	}
+
+ul.twoColumns{}
+	ul.twoColumns li{
+		width: 50%;
+	}
+
+ul.threeColumns{}
+	ul.threeColumns > li{
+		width: 33.2%;
+	}	
+
+ul.autoColumns{}
+	ul.autoColumns > li{
+		width: auto;
+	}	
+	
+div.clear {
+	clear: both;
+}
+div.case {
+	clear: both;
+}

@@ -1,0 +1,13 @@
+body {
+	background: url("../assets/css/body.jpg") repeat scroll center top #F4F2ED;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    height: 100% !important;
+    min-width: 960px !important;
+    width: 100%;
+}
+
+
+.shadowed {
+	box-shadow: 3px 3px 5px #E0DEDC;
+}
