@@ -68,8 +68,10 @@
             background-color: #FFFFFF;
         }
             .page .content .bestOffer .imageWrapper{
-                overflow-y: hidden;
-                height: 420px;
+               height: 420px;
+			    overflow-y: hidden;
+			    padding: 10px;
+			    text-align: center;
             }
             .page .content .bestOffer .caption{
                 float: right;
@@ -121,7 +123,37 @@
             background-color: #FFFFFF;
             text-transform: uppercase;
         }
-
+        
+        .page .content .topItems {}
+        	.page .content .topItems div.row{
+        		padding: 1em 0;
+        		margin-bottom: 10px;
+        	}
+        		.page .content .topItems div.row .item {
+        			float: left;
+				    margin: 0 2%;
+				    position: relative;
+				    text-align: center;
+				    width: 32%;
+        		}
+        		.page .content .topItems div.row div.item:first-child {
+        			margin: 0;
+        		}
+        		.page .content .topItems div.row div.item:last-child {
+        			margin: 0;
+        		}
+        
+        .page .content .item {
+        	background-color: #FFFFFF;
+        }
+        	.page .content .item div.wrapper {
+        		margin: 10px;
+        	}
+        	
+	.page .profile {
+		background-color: #FFFFFF;	
+	}
+	
 	.page .footer {
 		background-color: #FFFFFF;
         margin-bottom: 1em;
