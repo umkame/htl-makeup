@@ -22,6 +22,9 @@
 	.page .head {
 	}
 	
+		.page .head .content {
+			padding: 20px 0 10px 20px;
+		}
 		.page .head .menu{
 		    background-color: #FFFFFF;
             height: 52px;
@@ -62,7 +65,9 @@
 			    width: 22px;
 			}
 
-    .page .content {}
+    .page .content {
+    	
+    }
 
         .page .content .bestOffer {
             background-color: #FFFFFF;
@@ -150,8 +155,36 @@
         		margin: 10px;
         	}
         	
+        	 .page .content .item .name{
+        	 	color: #59BDD8;
+        	 	font-size: 16px;
+        	 	font-weight: bold;
+        	 	line-height: 20px;
+        	 }
+        	 
+        	 .page .content .item .cost{
+        	 	color: #FE5252;
+        	 	font-size: 16px;
+        	 	font-weight: bold;
+        	 	padding: 8px 0;
+        	 }
+        	 
+        	 .page .content .item .buttonWrapper{
+        	 	margin: 16px 0;
+        	 }
+        	 
+        	 .page .content .item .more{
+        	 	background-color: #7E7E7E;
+        	 	border-radius: 4px;
+        	 	color: #FFFFFF;
+        	 	padding: 4px 8px;
+        	 	width: 40%;
+        	 }
+        	
 	.page .profile {
 		background-color: #FFFFFF;	
+		padding-bottom: 10px;
+		text-align: center;
 	}
 	
 	.page .footer {
